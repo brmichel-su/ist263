@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+ <meta charset="utf-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <style>
+     .address {float: left;}
+     .clear {clear: both;}
+     .row2 {display: flex; flex-wrap:wrap;}
+     .map {margin: 50px 20px 10px 20px;} 
+     .form {margin:: 50px 50px 20px 20px;}
+     .row2 {margin-top: 30px; padding: 20px; background-color: linen; border-radius: 1em;}
+     .row1 {padding: 20px; background-color: linen; border-radius: 1em;}
+ </style>
+ <title> Contact</title>
+ <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <nav>
+        <a href="index.html"> Home</a> <span> &#124;</span>
+        <a href="skillslab07copy.html"> Skills </a> <span>&#124;</span>
+        <a href="contactlab07copy.html"> Contact </a> <span>&#124;</span>
+    </nav>
+
+    <div class="row1">
+    <article class="address">
+    <h1>Contact</h1>
+    Brooke Michell<br>
+    302 Marshall St, <br>
+    Syracuse, NY 13210
+   <br>
+</article>
+<article class="links">
+    <a href="mailto:brmichel@syr.edu"> Brooke Michell Email</a> <br>
+    <a href="https://www.linkedin.com/in/brookemichell/" > My LinkedIn Profile 
+    <img src="../images/LI-In-Bug-updated.png" alt="linkedin logo"> </a> <br>
+    </article>
+    <div class="clear"> </div>
+</div>
+   
+<div class="clear"></div>
+
+<div class="row2">
+    
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2916.007177656775!2d-76.13368568452202!3d43.04128047914703!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89d9f30aa2653e11%3A0x468fdb56dccbe208!2s302%20Marshall%20St%2C%20Syracuse%2C%20NY%2013210!5e0!3m2!1sen!2sus!4v1614270453118!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+   
+
+<article class="form">
+    <h1> Contact Form</h1>
+     <form action="mailto:brmichel@syr.edu" method="POST"> 
+    <label for="firstname"> Enter first name:</label>
+    <input type="text" name="firstname" id="firstname"> <br>
+    <textarea name="message" id="message" rows="10" cols="100"> Send me a message </textarea> <br>
+    <select name="reasonforcontact" id="reasonforcontact">
+        <option value="pr"> Professional </option>
+        <option value="pe"> Personal </option>
+        <option value="o"> Other </option>
+    </select> <br> 
+            <input type="submit" value="Send Application">
+         </form>
+        </article>
+</div>
+</body>
+</html>

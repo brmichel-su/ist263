@@ -24,11 +24,11 @@ nav {
     margin-bottom: 30px;   
 }
 nav a {
-color: darkviolet;
+color:#B9FF99;
 
 }
 nav a:hover {
-    background-color:darkorchid;
+    background-color: #FFF2DB;
 }
 @media only screen and (max-width:600px) {
     nav a {
