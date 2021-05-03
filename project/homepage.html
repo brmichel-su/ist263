@@ -1,37 +1,78 @@
 <!DOCTYPE html>
 <html lang="en">
  <meta charset="utf-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
  <title> Welcome!</title>
+ <style>
+     #topnav {
+            background-color:#e8fcfc; 
+            overflow: hidden;
+            padding: 20px;
+            
+        }
+    #navbar {
+        float: right; margin-top: 30px;
+        }
+    #bioimg {
+        float:left; padding-left: 30px; padding-right: 20px; margin-bottom: 30px; max-width: 100%;
+        }
+    #intro {
+        float:right;
+        }
+    #footer {
+    background-color:#e8fcfc; 
+    overflow: hidden;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    padding-top: 20px;
+    }
+#body{ 
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: ivory;
+    }
+ </style>
 </head>
-<body>
-    <img src="projectimages/bloglogo.png" alt="A Career in Vacationing: A Travel Blog" height="100" width="100"> 
-    <nav>
+<body id="body">
+    <div id="topnav">
+        <img src="projectimages/logo.png" alt="logo" id="logo">
+        <nav id="navbar">
         <a href="homepage.html"> Home</a> <span> &#124;</span>
         <a href="bloghomepage.html"> Blog </a> <span> &#124;</span>
         <a href="blogrecommendations.html"> Blog Recommnedations </a>
     </nav>
-<article>
+    </div>
+<div id="intro">
     <p> Hi! I’m Brooke Michell, a junior PR student at Syracuse University. Before I decided to spend all day staring at books in my university library, I made it my mission to travel as much of the world as possible. Every summer during high school I escaped the New Jersey suburbs to road trip for three months either in Western U.S.A or Europe. While I was traveling I photographed most of the breathtaking scenery and also all the silly shenanigans that happened along the way. My friends often joke that “I have a crush on the world” and I would have to agree. If you caught the travel bug just like me, stick around and take a look at my travel guides and photography for some tips for your next trip or just a quick travel fix. 
-    </p> <br>
-    <img src="projectimages/brookemichell.jpg" alt="Brooke Michell">
-</article>
-    <p>Follow along with my journey or send me a message to connect:    </p> <br>
-    <a href="https://www.linkedin.com/in/brookemichell/"> My LinkedIn</a> <br>
-    <a href="mailto:brmichel@syr.edu"> My Email</a> 
+    </p> <br> 
+    <img src="projectimages/brookemichell.jpg" alt="Brooke Michell" id="bioimg">
+    <div id="contact">
+    <p>Follow along with my journey or send me a message to connect:  </p> <br>
+    </div>
+    <div id="sociallinks">
+        <div id="linkedinicon">
+    <a href="https://www.linkedin.com/in/brookemichell/"> <img src="projectimages/linkedinlogo.png" alt="linkedin logo" width="60" height="60"> </a> </div> <br>
+    <div id="mailicon">
+    <a href="mailto:brmichel@syr.edu">  <img src="projectimages/emailicon.png" alt="microsoft outlook icon" width="40" height="40"></a> 
+</div>
+</div>
+</div> 
    
-   
-   
-
-   
-   
-    <footer>
-        <p> &copy; A Career in Vacationing.  <a href="https://www.linkedin.com/in/brookemichell/"> LinkedIn</a> 
-            <a href="mailto:brmichel@syr.edu"> Email</a>  </p>  
-             <nav>
-                <a href="homepage.html"> Home</a>
-                <a href="bloghomepage.html"> Blog </a>
+    <footer id="footer">
+        
+             <nav id="footernav">
+                <a href="homepage.html"> Home</a> <span> &#124;</span>
+                <a href="bloghomepage.html"> Blog </a> <span> &#124;</span>
                 <a href="blogrecommendations.html"> Blog Recommnedations </a>
             </nav>
+            <p> &copy; A Career in Vacationing  
+
+            <div id="footericon1">
+            <a href="https://www.linkedin.com/in/brookemichell/">  <img src="projectimages/linkedinlogo.png" alt="linkedin logo" width="30" height="30"> </a> </div>
+            <div id="footericon2">
+                <a href="mailto:brmichel@syr.edu">  <img src="projectimages/emailicon.png" alt="microsoft outlook icon" width="20" height="20"></a> </p>  </div>
+            </div>
+               
         </footer>
 </body>
 </html>
