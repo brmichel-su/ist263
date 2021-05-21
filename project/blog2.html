@@ -29,11 +29,16 @@
     font-family: Arial, Helvetica, sans-serif;
     background-color: ivory;
     }
-    #intro, #naximg, #naxostext, #rhodesimg, #rhodestext, #delphiimg, #delphitext, #beachsection, #conclusion {text-align: center; padding: 30px; margin-top: 25px;}
+    #intro, #naxosimg, #naxostext, #rhodesimg, #rhodestext, #delphiimg, #delphitext, #beachsection, #conclusion {text-align: center; padding: 30px; margin-top: 25px;}
     #beach1text, #beach2text, #beach3text, #beach4text, #beach5text, #beach6text, #beach7text {margin-top: 30px;}
     #beach1img, #beach2img, #beach3img, #beach4img, #beach5img,#beach7 {margin-top: 30px;}
     #beach6text {margin-bottom:30px;}
     h1, h2 {font-family: 'Montserrat', sans-serif;}
+    @media only screen and (max-width:600px) {
+           img {max-width: 100%;}
+            }
+            #footericons {display: flex; justify-content: center;}
+ #footericon2 {margin-left:15px; margin-top: 5px;}
  </style>
 </head>
 <body id="body">
@@ -54,11 +59,11 @@
 </div>
 
 <div id="naxosimg">
-<img src="projectimages/naxos1.jpg" alt="hostel in Naxos" height="300" width="300">
+
 <img src="projectimages/naxos2.jpg" alt="hostel in Naxos" height="300" width="300">
 <img src="projectimages/naxos3.jpg" alt="hostel in Naxos" height="300" width="300">
 <img src="projectimages/naxos4.jpg" alt="hostel in Naxos" height="300" width="300">
-<img src="projectimages/naxos5.jpg" alt="hostel in Naxos" height="300" width="300">
+
 </div>
 <div id="naxostext">
 <h2> Romanazzo Studios in Naxos, Greece </h2>
@@ -124,13 +129,12 @@
            <a href="blogrecommendations.html"> Blog Recommnedations </a>
        </nav>
        <p> &copy; A Career in Vacationing  
-
+        <div id="footericons">
        <div id="footericon1">
        <a href="https://www.linkedin.com/in/brookemichell/">  <img src="projectimages/linkedinlogo.png" alt="linkedin logo" width="30" height="30"> </a> </div>
        <div id="footericon2">
-           <a href="mailto:brmichel@syr.edu">  <img src="projectimages/emailicon.png" alt="microsoft outlook icon" width="20" height="20"></a> </p>  </div>
-       </div>
-          
+           <a href="mailto:brmichel@syr.edu">  <img src="projectimages/emailicon.png" alt="microsoft outlook icon" width="20" height="20"></a> </div>
+        </div>    
     </footer>
 </body>
 </html>

@@ -29,9 +29,18 @@
     font-family: Arial, Helvetica, sans-serif;
     background-color: ivory;
     }
-    #blog1, #blog2 {display:flex; flex-wrap: wrap;}
+    #bloglinks {display: flex; flex-wrap: wrap;}
+   #blog1, #blog2, #blog3, #blog4 {flex:1; margin: 10px; font-size: .75em;} 
     h1, h2 {font-family: 'Montserrat', sans-serif;}
+    #footericons {display: flex; justify-content: center;}
+ #footericon2 {margin-left:15px; margin-top: 5px;}
+
  </style>
+ <script>
+function LeavePage() {
+    alert ('you left the blog homepage');
+}
+ </script>
 </head>
 <body id="body">
     <div id="topnav">
@@ -42,27 +51,28 @@
         <a href="blogrecommendations.html"> Blog Recommnedations </a>
     </nav>
     </div>
-   <section id="blog1">
+    <div id=bloglinks>
+   <div id="blog1">
    <img src="projectimages/blog1.jpg" alt="Greece Collage" height="400" width="400"> 
-   <nav> <a href="blog1.html"> The Ultimate Guide to Planning a Greece Trip</a>  </nav>
-</section>
+   <nav> <a href="blog1.html" onclick="LeavePage()"> The Ultimate Guide to Planning a Greece Trip</a>  </nav>
+   </div>
 
-<section id="blog2">
+<div id="blog2">
    <img src="projectimages/naxos1.jpg" alt="Naxos Hostel" height="400" width="400"> 
-   <nav> <a href="blog2.html">The Best Budget Friendly Greece Travel Guide  </a>  </nav>
-</section>
-<div id="clear"> </div>
-<section id="blog3">
-   <img src="projectimages/zion.jpg" alt="Zion National Park" height="400" width="400"> 
-   <nav> <a href="blog3.html"> Top Five National Parks </a>  </nav>
-</section>
- 
-<section id="blog4">
-   <img src="projectimages/golf.png" alt="Cape Escape Golf" height="400" width="400"> 
-    <nav> <a href="blog4.html"> The Best Micro-cation During COVID-19 </a>  </nav>
-   </section>
-   <div id="clear1"> </div>
+   <nav> <a href="blog2.html" onclick="LeavePage()">The Best Budget Friendly Greece Travel Guide  </a>  </nav>
 </div>
+
+<div id="blog3">
+   <img src="projectimages/zion.jpg" alt="Zion National Park" height="400" width="400"> 
+   <nav> <a href="blog3.html" onclick="LeavePage()"> Top Five National Parks </a>  </nav>
+</div>
+ 
+<div id="blog4">
+   <img src="projectimages/golf.png" alt="Cape Escape Golf" height="400" width="400"> 
+    <nav> <a href="blog4.html" onclick="LeavePage()"> The Best Micro-cation During COVID-19 </a>  </nav>
+</div>
+</div>
+ 
 <footer id="footer">
         
     <nav id="footernav">
@@ -71,12 +81,12 @@
        <a href="blogrecommendations.html"> Blog Recommnedations </a>
    </nav>
    <p> &copy; A Career in Vacationing  
-
+    <div id="footericons">
    <div id="footericon1">
    <a href="https://www.linkedin.com/in/brookemichell/">  <img src="projectimages/linkedinlogo.png" alt="linkedin logo" width="30" height="30"> </a> </div>
    <div id="footericon2">
-       <a href="mailto:brmichel@syr.edu">  <img src="projectimages/emailicon.png" alt="microsoft outlook icon" width="20" height="20"></a> </p>  </div>
-   </div>     
+       <a href="mailto:brmichel@syr.edu">  <img src="projectimages/emailicon.png" alt="microsoft outlook icon" width="20" height="20"></a> </div>
+    </div>    
 </footer>
 </body>
 </html>
